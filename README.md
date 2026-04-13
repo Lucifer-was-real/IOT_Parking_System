@@ -3,7 +3,7 @@
 A distributed IoT and Computer Vision system that captures vehicle images, extracts license plate numbers using Optical Character Recognition (OCR), logs the data to the cloud, and wirelessly displays the results on a remote OLED screen.
 
 ## 🔄 System Flowchart
-
+'''mermaid
 graph TD
     subgraph Capture Node
     A[ESP32-CAM] -->|1. Captures Image every 15s| B(HTTP POST over WiFi)
