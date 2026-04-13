@@ -4,9 +4,6 @@ A distributed IoT and Computer Vision system that captures vehicle images, extra
 
 ## 🔄 System Flowchart
 
-Below is the visual flowchart of how the system operates. GitHub natively renders this `mermaid` diagram when you view the README!
-
-```mermaid
 graph TD
     subgraph Capture Node
     A[ESP32-CAM] -->|1. Captures Image every 15s| B(HTTP POST over WiFi)
